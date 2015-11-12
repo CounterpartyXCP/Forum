@@ -6,6 +6,7 @@ Having a CIP here does not make it a formally accepted standard until its status
 
 Those proposing changes should consider that ultimately consent may rest with the consensus of the Counterparty users.
 
-Number  | Title | Owner | Type | Status
-------------- | -------------------------------------- | ------------------------------------- | ------------- | ------------- |
-[1](cip-0001.md) | CIP Purpose and Guidelines | Devon Weller | Process | Active |
+Number           | Title                                  | Owner                                 | Type          | Status        |
+-------------    | -------------------------------------- | ------------------------------------- | ------------- | ------------- |
+[1](cip-0001.md) | CIP Purpose and Guidelines             | Devon Weller                          | Process       | Active        |
+[2](cip-0002.md) | Counterparty Payment URI Scheme        | Devon Weller                          | Informational | Draft         |
