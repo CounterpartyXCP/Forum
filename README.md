@@ -11,3 +11,4 @@ Number           | Title                                  | Owner               
 [1](cip-0001.md) | CIP Purpose and Guidelines             | Devon Weller                          | Process       | Active        |
 [2](cip-0002.md) | Counterparty Payment URI Scheme        | Devon Weller                          | Informational | Draft         |
 [3](cip-0003.md) | Reset Token & Divisibility Statuses    | JP Janssen                            | Standards     | Draft         |
+[3](cip-0004.md) | Subassets                              | Jeremy Johnson                        | Standards     | Draft         |
