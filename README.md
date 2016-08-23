@@ -12,3 +12,4 @@ Number           | Title                                  | Owner               
 [2](cip-0002.md) | Counterparty Payment URI Scheme        | Devon Weller                          | Informational | Draft         |
 [3](cip-0003.md) | Reset Token & Divisibility Statuses    | JP Janssen                            | Standards     | Draft         |
 [4](cip-0004.md) | Subassets                              | Jeremy Johnson                        | Standards     | Draft         |
+[5](cip-0005.md) | Broadcast Voting Meta Protocol         | Ruben de Vries                        | Standards     | Draft         |
