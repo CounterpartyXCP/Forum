@@ -13,3 +13,4 @@ Number           | Title                                  | Owner               
 [3](cip-0003.md) | Reset Token & Divisibility Statuses    | JP Janssen                            | Standards     | Draft         |
 [4](cip-0004.md) | Subassets                              | Jeremy Johnson                        | Standards     | Draft         |
 [5](cip-0005.md) | Broadcast Voting Meta Protocol         | Ruben de Vries                        | Standards     | Draft         |
+[6](cip-0006.md) | P2SH data encoding                     | Ruben de Vries                        | Standards     | Draft         |
