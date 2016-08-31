@@ -14,3 +14,4 @@ Number           | Title                                      | Owner           
 [4](cip-0004.md) | Subassets                                  | Jeremy Johnson                        | Standards     | Draft         |
 [5](cip-0005.md) | Broadcast Voting Meta Protocol             | Ruben de Vries                        | Standards     | Draft         |
 [6](cip-0006.md) | P2SH data encoding                         | Ruben de Vries                        | Standards     | Draft         |
+[7](cip-0007.md) | Blockchain Validated Asset Metadata (BVAM) | Devon Weller                          | Informational | Draft         |
