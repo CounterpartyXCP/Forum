@@ -16,3 +16,4 @@ Number           | Title                                      | Owner           
 [6](cip-0006.md) | P2SH data encoding                         | Ruben de Vries                        | Standards     | Draft         |
 [7](cip-0007.md) | Blockchain Validated Asset Metadata (BVAM) | Devon Weller                          | Informational | Draft         |
 [9](cip-0009.md) | Enhanced Asset Send | Joe Looney                          | Standards | Draft         |
+[10](cip-0010.md) | Multi Peer Multi Asset Send (MPMA) | John Villar & Javier Varona                         | Standards | Pre-Draft         |
