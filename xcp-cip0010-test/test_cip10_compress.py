@@ -1,6 +1,7 @@
 import struct
 import binascii
 import math
+import lzma
 from bitstring import BitArray, BitStream
 from bitcoin import base58
 from xcp import asset_id
@@ -12,7 +13,7 @@ def sendToMany(asset, addr_amnt_tuples):
     return b''.join([pkdAsset, *pkdTuples])
 
 def addrToBytes(addr):
-    return base58.decode(addr)
+    return base58.decode(addr)[:-4]
 
 def constructBaseLUT(snds):
     return list(set([addr for (asset, addr, amnt) in snds]))
@@ -31,7 +32,7 @@ def constructLUT(snds):
 def compressLUT(lut):
     return b''.join([struct.pack('H', len(lut['addrs']))] +
         [
-            base58.decode(addr)
+            addrToBytes(addr)
             for addr in lut['addrs']
         ])
 

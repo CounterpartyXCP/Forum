@@ -3,16 +3,31 @@ import binascii
 import math
 from bitstring import BitArray, ConstBitStream
 from bitcoin import base58
+from bitcoin.core import key
 from xcp import asset_name
+
+def addressFrom21Bytes(b):
+    sha256_1 = key.hashlib.new('sha256')
+    sha256_1.update(b)
+
+    sha256_2 = key.hashlib.new('sha256')
+    sha256_2.update(sha256_1.digest())
+
+    chk = sha256_2.digest()[:4]
+
+    return base58.encode(b''.join([b, chk]))
 
 def decodeLUT(data):
     (numAddresses,) = struct.unpack('H', data[0:2])
     p = 2
     addressList = []
+    bytesPerAddress = 21
+
     for i in range(0, numAddresses):
-        addr_raw = data[p:p+25]
-        addressList.append(base58.encode(addr_raw))
-        p += 25
+        addr_raw = data[p:p+bytesPerAddress]
+
+        addressList.append(addressFrom21Bytes(addr_raw))
+        p += bytesPerAddress
 
     lutNbits = math.ceil(math.log2(numAddresses))
 
