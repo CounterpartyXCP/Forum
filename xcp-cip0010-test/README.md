@@ -8,3 +8,4 @@ Modules:
 Python 3 modules can be installed with "pip3 install" on most linux distros.
   * python-bitcoinlib
   * bitstring
+  * memory_profiler & psutil

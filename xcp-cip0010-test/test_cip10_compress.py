@@ -87,7 +87,7 @@ def lzma_compress(p):
     cmp = lzma.LZMACompressor(format=lzma.FORMAT_RAW,
         filters=[{
             "id": lzma.FILTER_LZMA1,
-            "preset": 9 | lzma.PRESET_EXTREME
+            "preset": 7
             }])
     f = cmp.compress(p)
     l = cmp.flush()

@@ -1,6 +1,7 @@
 import struct
 import binascii
 import math
+import lzma
 from bitstring import BitArray, ConstBitStream
 from bitcoin import base58
 from bitcoin.core import key
@@ -58,7 +59,14 @@ def decodeSends(data, nbits, lut):
     return sends
 
 def lzma_decompress(data):
-    raise 'LZMA decompress not implemented'
+    dec = lzma.LZMADecompressor(format=lzma.FORMAT_RAW,
+        filters=[{
+            "id": lzma.FILTER_LZMA1,
+            "preset": 7
+            }])
+    decData = dec.decompress(data)
+
+    return decData
 
 def mpmaSendDecode(data, use_lzma=False):
     if use_lzma:
