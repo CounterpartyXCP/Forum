@@ -6,14 +6,15 @@ Having a CIP here does not make it a formally accepted standard until its status
 
 Those proposing changes should consider that ultimately consent may rest with the consensus of the Counterparty users.
 
-Number           | Title                                      | Owner                                 | Type          | Status        |
--------------    | -------------------------------------------| ------------------------------------- | ------------- | ------------- |
-[1](cip-0001.md) | CIP Purpose and Guidelines                 | Devon Weller                          | Process       | Active        |
-[2](cip-0002.md) | Counterparty Payment URI Scheme            | Devon Weller                          | Informational | Accepted      |
-[3](cip-0003.md) | Reset Token & Divisibility Statuses        | JP Janssen                            | Standards     | Draft         |
-[4](cip-0004.md) | Subassets                                  | Jeremy Johnson                        | Standards     | Accepted      |
-[5](cip-0005.md) | Broadcast Voting Meta Protocol             | Ruben de Vries                        | Standards     | Draft         |
-[6](cip-0006.md) | P2SH data encoding                         | Ruben de Vries                        | Standards     | Draft         |
-[7](cip-0007.md) | Blockchain Validated Asset Metadata (BVAM) | Devon Weller                          | Informational | Draft         |
-[8](cip-0008.md) | CIP Implementation Bounties                | Robby Dermody                         | Process       | Draft         |
-[9](cip-0009.md) | Enhanced Asset Send                        | Joe Looney                            | Standards     | Draft         |
+Number            | Title                                      | Owner                                 | Type          | Status        |
+-------------     | -------------------------------------------| ------------------------------------- | ------------- | ------------- |
+[1](cip-0001.md)  | CIP Purpose and Guidelines                 | Devon Weller                          | Process       | Active        |
+[2](cip-0002.md)  | Counterparty Payment URI Scheme            | Devon Weller                          | Informational | Accepted      |
+[3](cip-0003.md)  | Reset Token & Divisibility Statuses        | JP Janssen                            | Standards     | Draft         |
+[4](cip-0004.md)  | Subassets                                  | Jeremy Johnson                        | Standards     | Accepted      |
+[5](cip-0005.md)  | Broadcast Voting Meta Protocol             | Ruben de Vries                        | Standards     | Draft         |
+[6](cip-0006.md)  | P2SH data encoding                         | Ruben de Vries                        | Standards     | Draft         |
+[7](cip-0007.md)  | Blockchain Validated Asset Metadata (BVAM) | Devon Weller                          | Informational | Draft         |
+[8](cip-0008.md)  | CIP Implementation Bounties                | Robby Dermody                         | Process       | Draft         |
+[9](cip-0009.md)  | Enhanced Asset Send                        | Joe Looney                            | Standards     | Draft         |
+[11](cip-0011.md) | Shorten Transaction Type ID Namespace      | Devon Weller                          | Standards     | Draft         |
