@@ -18,3 +18,4 @@ Number            | Title                                      | Owner          
 [8](cip-0008.md)  | CIP Implementation Bounties                | Robby Dermody                         | Process       | Draft         |
 [9](cip-0009.md)  | Enhanced Asset Send                        | Joe Looney                            | Standards     | Accepted      |
 [11](cip-0011.md) | Shorten Transaction Type ID Namespace      | Devon Weller                          | Standards     | Accepted      |
+[12](cip-0012.md) | Memo Requirement through Broadcasts        | Jeremy Johnson                        | Standards     | Accepted      |
