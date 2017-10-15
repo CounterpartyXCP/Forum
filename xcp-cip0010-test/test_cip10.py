@@ -3,6 +3,8 @@ from test_cip10_decompress import mpmaSendDecode
 import pprint
 #import memory_profiler
 import binascii
+import itertools
+import operator
 
 sends = [
     ('XCP', '3NA8hsjfdgVkmmVS9moHmkZsVCoLxUkvvv', 143250000),
@@ -33,11 +35,17 @@ pp = pprint.PrettyPrinter(indent=4)
 if testCodec:
     pp.pprint(mpmaSendDecode(mpmaSend(sends, use_lzma=useLzma), use_lzma=useLzma))
 
-print(mpmaSend(sends, use_lzma=False).hex())
-print(len(mpmaSend(sends, use_lzma=True)))
+#print(mpmaSend(sends, use_lzma=False).hex())
+#print(len(mpmaSend(sends, use_lzma=True)))
 #preSend = mpmaSend(sends, use_lzma=useLzma)
 #print(binascii.hexlify(preSend))
 
+def accumulate(l):
+    it = itertools.groupby(l, operator.itemgetter(0))
+    for key, subiter in it:
+       yield key, sum(item[1] for item in subiter)
+
+print([x for x in )])
 exit()
 
 preSend = binascii.unhexlify('0002003403265efb94afc74fb5b0e3a3fed4ed7f1f991266e14ec7fc920f7b0333ff7eca2e5bcea67b704bbd5d708949ef4a50cd6b02ad130e306c94a808395b474af9fefbde4fd6443da9138353bf6dad8e8252e5118dc0b0d4de7f9259da61d2315e2ac5892a84c3b2bee98cb103e69fbf4a8492a1c500c68020abf048d0c599ef304dc2c4282fe7cefea9708d2227e3b8ab7d2e177fe5d9648e4afde4742dba942ab6c6599feb296a7ca479aae7cf535b94ffff6d700000')
