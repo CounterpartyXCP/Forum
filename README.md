@@ -19,3 +19,4 @@ Number            | Title                                      | Owner          
 [9](cip-0009.md)  | Enhanced Asset Send                        | Joe Looney                            | Standards     | Accepted      |
 [11](cip-0011.md) | Shorten Transaction Type ID Namespace      | Devon Weller                          | Standards     | Accepted      |
 [12](cip-0012.md) | Memo Requirement through Broadcasts        | Jeremy Johnson                        | Standards     | Accepted      |
+[15](cip-0015.md) | Segwit Support                             | Devon Weller                          | Standards     | Draft         |
