@@ -14,11 +14,13 @@ Number            | Title                                      | Owner          
 [3](cip-0003.md)  | Reset Token & Divisibility Statuses        | JP Janssen                            | Standards     | Draft         |
 [4](cip-0004.md)  | Subassets                                  | Jeremy Johnson                        | Standards     | Accepted      |
 [5](cip-0005.md)  | Broadcast Voting Meta Protocol             | Ruben de Vries                        | Standards     | Draft         |
-[6](cip-0006.md)  | P2SH data encoding                         | Ruben de Vries                        | Standards     | Draft         |
+[6](cip-0006.md)  | P2SH data encoding                         | Ruben de Vries                        | Standards     | Accepted      |
 [7](cip-0007.md)  | Blockchain Validated Asset Metadata (BVAM) | Devon Weller                          | Informational | Draft         |
-[8](cip-0008.md)  | CIP Implementation Bounties                | Robby Dermody                         | Process       | Draft         |
-[9](cip-0009.md)  | Enhanced Asset Send                        | Joe Looney                            | Standards     | Accepted      |
-[10](cip-0010.md) | Multi Peer Multi Asset Send (MPMA) | John Villar & Javier Varona                         | Standards | Pre-Draft         |
+[8](cip-0008.md)  | CIP Implementation Bounties                | Robby Dermody                         | Process       | Accepted      |
+[9](cip-0009.md)  | Enhanced Asset Send                        | Joe Looney                            | Standards     | Active        |
+[10](cip-0010.md) | Multi Peer Multi Asset Send (MPMA)         | John Villar & Javier Varona           | Standards     | Accepted      |
 [11](cip-0011.md) | Shorten Transaction Type ID Namespace      | Devon Weller                          | Standards     | Accepted      |
-[12](cip-0012.md) | Memo Requirement through Broadcasts        | Jeremy Johnson                        | Standards     | Accepted      |
-[15](cip-0015.md) | Segwit Support                             | Devon Weller                          | Standards     | Draft         |
+[12](cip-0012.md) | Memo Requirement through Broadcasts        | Jeremy Johnson                        | Standards     | Active        |
+[14](cip-0014.md) | Instant Lottery                            | JP Janssen                            | Standards     | Deferred      |
+[15](cip-0015.md) | Segwit Support                             | Devon Weller                          | Standards     | Accepted      |
+[17](cip-0017.md) | Automated Feed with Bitcoin and Counterparty Data| JP Janssen                      | Standards     | Pre-Draft     |
