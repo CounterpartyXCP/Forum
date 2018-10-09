@@ -23,6 +23,7 @@ Number            | Title                                      | Owner          
 [12](cip-0012.md) | Memo Requirement through Broadcasts        | Jeremy Johnson                        | Standards     | Active        |
 [14](cip-0014.md) | Instant Lottery                            | JP Janssen                            | Standards     | Deferred      |
 [15](cip-0015.md) | Segwit Support                             | Devon Weller                          | Standards     | Accepted      |
+[16](cip-0016.md) | Scheduled Distributions             | Dan Anderson                          | Standards     | Draft      |
 [17](cip-0017.md) | Automated Feed with Bitcoin and Counterparty Data| JP Janssen                      | Standards     | Pre-Draft     |
 [18](cip-0018.md) | Configuration flag to change API query limit defaults| John Villar                      | Standards     | Active     |
 [19](cip-0019.md) | Finish upgrade of Counterparty to use latest Bitcoin and Indexd| John Villar                      | Standards     | Draft     |
