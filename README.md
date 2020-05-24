@@ -29,4 +29,4 @@ Number            | Title                                      | Owner          
 [19](cip-0019.md) | Upgrade to latest Bitcoin and Indexd       | John Villar                           | Standards     | Accepted      |
 [20](cip-0020.md) | Add "address sweep" message                | John Villar                           | Standards     | Accepted      |
 [21](cip-0021.md) | Add "dispenser" message                    | John Villar                           | Standards     | Accepted      |
-[22](blob/cip22/cip-0022.md) | Update Fednode stack to use addrindexrs    | John Villar                           | Standards     | Draft         |
+[22](https://github.com/CounterpartyXCP/cips/blob/cip22/cip-0022.md) | Update Fednode stack to use addrindexrs    | John Villar                           | Standards     | Draft         |
