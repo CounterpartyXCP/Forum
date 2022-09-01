@@ -11,7 +11,7 @@ Number            | Title                                      | Owner          
 -------------     | -------------------------------------------| ------------------------------------- | ------------- | ------------- |
 [1](cip-0001.md)  | CIP Purpose and Guidelines                 | Devon Weller                          | Process       | Active        |
 [2](cip-0002.md)  | Counterparty Payment URI Scheme            | Devon Weller                          | Informational | Accepted      |
-[3](cip-0003.md)  | Reset Token & Divisibility Statuses        | JP Janssen                            | Standards     | Draft         |
+[3](cip-0003.md)  | Reset Token & Divisibility Statuses        | JP Janssen                            | Standards     | Active        |
 [4](cip-0004.md)  | Subassets                                  | Jeremy Johnson                        | Standards     | Active        |
 [5](cip-0005.md)  | Broadcast Voting Meta Protocol             | Ruben de Vries                        | Standards     | Draft         |
 [6](cip-0006.md)  | P2SH data encoding                         | Ruben de Vries                        | Standards     | Active        |
@@ -26,8 +26,9 @@ Number            | Title                                      | Owner          
 [16](cip-0016.md) | Scheduled Distributions                    | Dan Anderson                          | Standards     | Draft         |
 [17](cip-0017.md) | Automated Feed with Bitcoin and Counterparty Data| JP Janssen                      | Standards     | Pre-Draft     |
 [18](cip-0018.md) | Cfg flag to change API query limit defaults| John Villar                           | Standards     | Active        |
-[19](cip-0019.md) | Upgrade to latest Bitcoin and Indexd       | John Villar                           | Standards     | Finished      |
+[19](cip-0019.md) | Upgrade to latest Bitcoin and Indexd       | John Villar                           | Standards     | Active        |
 [20](cip-0020.md) | Add "address sweep" message                | John Villar                           | Standards     | Active        |
 [21](cip-0021.md) | Add "dispenser" message                    | John Villar                           | Standards     | Active        |
 [22](cip-0022.md) | Update Fednode stack to use addrindexrs    | John Villar                           | Standards     | Active        |
-[23](cip-0023.md) | Bug fixes on non-divisible dividends and 0 quantity credits | John Villar          | Standards     | In-development|
+[23](cip-0023.md) | Bug fixes on non-divisible dividends and 0 quantity credits | John Villar          | Standards     | Active        |
+[24](cip-0024.md) | Oracled dispensers                  | John Villar, Jeremy Johnson, & Javier Varona | Standards     | Active        |
