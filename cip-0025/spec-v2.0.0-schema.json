@@ -1,0 +1,300 @@
+{
+    "title": "Enhanced Asset Information Specification Schema",
+    "type": "object",
+    "$schema": "http://json-schema.org/draft-04/schema",
+    "version": "2.0.0",
+
+    "properties": {
+        "asset": {
+            "type": "string",
+            "description": "The asset name that represents the token"
+        },
+        "description": {
+            "type": "string",
+            "maxLength": 2048,
+            "description": "A full text description of the token"
+        },
+        "image": {
+            "type": "string",
+            "format": "uri",
+            "maxLength": 100,
+            "description": "A link a 48x48 PNG image to represent the token (DEPRECATED: Use the images attribute instead)"            
+        },
+        "pgpsig": {
+            "type": "string",
+            "format": "uri",
+            "maxLength": 100,
+            "description": "A link to a pgp signature text/file that will or can be used to sign messages by the issuer of this token (DEPRECATED: Use signature to validate ownership)"        },
+        "website": {
+            "type": "string",
+            "format": "uri",
+            "maxLength": 255,
+            "description": "A URI with more information the token"
+        },
+        "name": {
+            "type": "string",
+            "maxLength": 127,
+            "description": "The full name of the token"
+        },
+        "owner": {
+            "$ref": "#/definitions/owner",
+            "description": "Information about the owner of this token"
+        },
+        "contacts": {
+            "type": "array",
+            "items": { "$ref": "#/definitions/contacts" },
+            "uniqueItems": true,
+            "description": "Information about how to contact the owner of this token"
+        },
+        "categories": {
+            "type": "array",
+            "items": { "$ref": "#/definitions/categories" },
+            "uniqueItems": true,
+            "description": "Information on what type of categories this token falls into"
+        },
+        "social": {
+            "type": "array",
+            "items": { "$ref": "#/definitions/social" },
+            "description": "Social media accounts related to this token"
+        },
+        "images": {
+            "type": "array",
+            "items": { "$ref": "#/definitions/images" },
+            "uniqueItems": true,
+            "description": "One or more images used to represent the token."
+        },
+        "audio": {
+            "type": "array",
+            "items": { "$ref": "#/definitions/audio" },
+            "uniqueItems": true,
+            "description": "One or more audio files related to the token."
+        },
+        "video": {
+            "type": "array",
+            "items": { "$ref": "#/definitions/video" },
+            "uniqueItems": true,
+            "description": "One or more video files related to the token."
+        },
+        "files": {
+            "type": "array",
+            "items": { "$ref": "#/definitions/files" },
+            "uniqueItems": true,
+            "description": "One or more files related to the token."
+        },
+        "dns": {
+            "type": "array",
+            "items": { "$ref": "#/definitions/dns" },
+            "uniqueItems": true,
+            "description": "One or more DNS records related to the token."
+        }
+    },
+
+    "required": ["asset", "name"],
+
+    "definitions": {
+
+        "owner": {
+            "type": "object",
+            "properties": {
+                "name": {
+                    "type": "string",
+                    "maxLength": 128,
+                    "description": "The full name of the contact for the owner of this token"
+                },
+                "title": {
+                    "type": "string",
+                    "maxLength": 128,
+                    "description": "The organization title for the owner of this token"
+                },
+                "organization": {
+                    "type": "string",
+                    "maxLength": 128,
+                    "description": "The organization name that owns this token"
+                }
+            }
+        },
+
+        "categories": {
+            "type": "object",
+            "properties": {
+                "type": {
+                    "type": "string",
+                    "enum": ["main", "sub", "other"],
+                    "description": "Type of category being given (main, subcategory, other)"
+                },
+                "data": {
+                    "type": "string",
+                    "format": "string",
+                    "maxLength": 255,
+                    "description": "Description of the category"
+                }
+            },
+            "required": ["type", "data"]
+        },
+
+        "contacts": {
+            "type": "object",
+            "properties": {
+                "type": {
+                    "type": "string",
+                    "enum": ["address", "email", "phone", "fax", "url"],
+                    "description": "Type of contact information that is being given"
+                },
+                "data": {
+                    "type": "string",
+                    "format": "string",
+                    "maxLength": 255,
+                    "description": "The contact information (address, email, phone, etc)"
+                }
+            },
+            "required": ["type", "data"],
+            "additionalProperties": false
+        },
+
+        "social": {
+            "type": "object",
+            "properties": {
+                "type": {
+                    "type": "string",
+                    "description": "Type of social media account that is being given (github, facebook, twitter, telegram, discord, etc)"
+                },
+                "data": {
+                    "type": "string",
+                    "format": "string",
+                    "maxLength": 255,
+                    "description": "A URI for the social media account"
+                }
+            },
+            "required": ["type", "data"]
+        },
+
+        "images": {
+            "type": "object",
+            "properties": {
+                "type": {
+                    "enum": ["icon", "standard", "large", "hires"],
+                    "description": "The type of image being given"
+                },
+                "size": {
+                    "description": "The size of the image for pixel-based images or svg for SVG images"
+                },
+                "data": {
+                    "type": "string",
+                    "format": "string",
+                    "maxLength": 255,
+                    "description": "A URI to the image file"
+                },
+                "hash": {
+                    "type": "string",
+                    "format": "string",
+                    "maxLength": 64,
+                    "description": "A sha256 hash of the image file"
+                }
+            },
+            "required": ["type", "data"]
+        },
+
+        "audio": {
+            "type": "object",
+            "properties": {
+                "type": {
+                    "enum": ["m4a", "mp3", "wav"],
+                    "description": "The type of audio file being given"
+                },
+                "data": {
+                    "type": "string",
+                    "format": "string",
+                    "maxLength": 255,
+                    "description": "A URI to the audio file"
+                },
+                "hash": {
+                    "type": "string",
+                    "format": "string",
+                    "maxLength": 64,
+                    "description": "A sha256 hash of the audio file"
+                }
+            },
+            "required": ["type", "data"]
+        },
+
+        "video": {
+            "type": "object",
+            "properties": {
+                "type": {
+                    "enum": ["mp4", "mov", "wmv"],
+                    "description": "The type of video file being given"
+                },
+                "data": {
+                    "type": "string",
+                    "format": "string",
+                    "maxLength": 255,
+                    "description": "A URI to the video file"
+                },
+                "hash": {
+                    "type": "string",
+                    "format": "string",
+                    "maxLength": 64,
+                    "description": "A sha256 hash of the video file"
+                }
+            },
+            "required": ["type", "data"]
+        },
+
+        "files": {
+            "type": "object",
+            "properties": {
+                "type": {
+                    "description": "The type of file being given (doc, xls, pdf, other)"
+                },
+                "data": {
+                    "type": "string",
+                    "format": "string",
+                    "maxLength": 255,
+                    "description": "A URI to the file"
+                },
+                "hash": {
+                    "type": "string",
+                    "format": "string",
+                    "maxLength": 64,
+                    "description": "A sha256 hash of the file"
+                }
+            },
+            "required": ["type", "data"]
+        },
+
+        "dns": {
+            "type": "object",
+            "properties": {
+                "type": {
+                    "enum": [ "A", "AAAA", "ALIAS", "CAA", "CNAME", "NS", "SRV", "TXT", "URL", "btcdns"],
+                    "description": "The type of DNS record"
+                },
+                "host": {
+                    "type": "string",
+                    "format": "string",
+                    "maxLength": 255,
+                    "description": "The hostname for this DNS record"
+                },
+                "value": {
+                    "type": "string",
+                    "format": "string",
+                    "maxLength": 255,
+                    "description": "The DNS value you wish to use for this record"
+                }
+            },
+            "if": {
+                "properties": {
+                    "type": { "const": "btcnds" }
+                },
+                "required": ["type"]
+            },
+            "then": { 
+                "required": ["type", "value"] 
+            },
+            "else": {
+                "required": ["type", "host", "value"] 
+            },
+            "additionalProperties": false
+        }
+    }
+}
