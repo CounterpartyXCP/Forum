@@ -1,0 +1,143 @@
+{
+    "asset": "MYTOKEN",
+    "description": "This is a text description of MYTOKEN",
+    "image": "http://www.mysite.com/mytoken.png",
+    "website": "http://www.mysite.com",
+    "pgpsig": "http://www.mysite.com/MYTOKEN.pgp",
+
+    "name": "Token Name",
+
+    "owner": {
+        "name": "John Smith",
+        "title": "Chief Technology Officer (CFO)",
+        "organization": "ABC Technologies, Inc.",
+    },
+
+    "contacts": [{
+        "type": "address",
+        "data": "1234 Main Street, Seattle, WA 98104",
+    },{
+        "type": "email",
+        "data": "info@domain.com",
+    },{
+        "type": "phone",
+        "data": "1-949-555-1234",
+    },{
+        "type": "fax",
+        "data": "1-949-555-1234",
+    },{
+        "type": "url",
+        "data": "https://domain.com"
+    }],
+
+    "social": [{
+        "type": "github",
+        "data": "https://github.com/CounterpartyXCP"
+    },{
+        "type": "facebook",
+        "data": "https://facebook.com/CounterpartyXCP",
+    },{
+        "type": "twitter",
+        "data": "https://twitter.com/CounterpartyXCP"
+    },{
+        "type": "telegram",
+        "data": "https://t.me/Counterparty_XCP"
+    },{
+        "type": "discord",
+        "data": "https://discord.gg/K9kyRpje"
+    }],
+
+    "categories":[{
+        "type": "main",
+        "data": "Art"
+    },{
+        "type": "sub",
+        "data": "Photographer"
+    },{
+        "type": "other",
+        "data": "Skyline/Sunset Photographs"
+    }],
+
+    "images": [{
+        "type": "icon",
+        "size": "48x48",
+        "data": "https://domain.com/icon.png",
+        "hash": "8031025a667824a188dd5479ca5cb20c5306be06ed01875f7bcc11ecb48251be"
+    },{
+        "type": "icon",
+        "size": "128x128",
+        "data": "https://domain.com/icon128.png"
+    },{
+        "type": "standard",
+        "data": "https://domain.com/image.png"
+    },{
+        "type": "large",
+        "data": "https://domain.com/image_large.png"
+    },{
+        "type": "hires",
+        "data": "https://domain.com/image_hires.png"
+    }],
+
+    "audio": [{
+        "type": "m4a",
+        "data": "https://domain.com/audio.m4a",
+        "hash": "8031025a667824a188dd5479ca5cb20c5306be06ed01875f7bcc11ecb48251be"
+    },{
+        "type": "mp3",
+        "data": "https://domain.com/audio.mp3"
+    },{
+        "type": "wav",
+        "data": "https://domain.com/audio.wav"
+    }],
+
+    "video": [{
+        "type": "mp4",
+        "data": "https://domain.com/video.mp4",
+        "hash": "8031025a667824a188dd5479ca5cb20c5306be06ed01875f7bcc11ecb48251be"
+    },{
+        "type": "mov",
+        "data": "https://domain.com/video.mov"
+    },{
+        "type": "wmv",
+        "data": "https://domain.com/video.wmv"
+    }],
+
+    "files": [{
+        "type": "doc",
+        "data": "https://domain.com/word.doc",
+        "hash": "8031025a667824a188dd5479ca5cb20c5306be06ed01875f7bcc11ecb48251be"
+    },{
+        "type": "pdf",
+        "data": "https://domain.com/document.pdf"
+    },{
+        "type": "xls",
+        "data": "https://domain.com/excel.xls"
+    },{
+        "type": "other",
+        "data": "https://domain.com/filename.ext"
+    }],
+
+
+    "dns": [{
+        "type": "btcdns",
+        "value": "https://twitter.com/mikeinspace"
+    },{
+        "type": "A",
+        "host": "@",
+        "value": "123.123.123.123"
+    },{
+        "type": "CNAME",
+        "host": "www",
+        "value": "domain.com"
+    },{
+        "type": "TXT",
+        "host": "@",
+        "value": "google-site-verification=ihWf7hO1uxOcEyEW5KWRI1NtscPyJtQ6ko4BYQuC1Q8"
+    },{
+        "type": "MX",
+        "host": "@",
+        "priority": 10,
+        "value": "aspmx.l.google.com"
+    }]
+
+}
