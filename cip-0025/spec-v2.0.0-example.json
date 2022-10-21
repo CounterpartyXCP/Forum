@@ -30,6 +30,17 @@
         "data": "https://domain.com"
     }],
 
+    "categories":[{
+        "type": "main",
+        "data": "Art"
+    },{
+        "type": "sub",
+        "data": "Photographer"
+    },{
+        "type": "other",
+        "data": "Skyline/Sunset Photographs"
+    }],
+
     "social": [{
         "type": "github",
         "data": "https://github.com/CounterpartyXCP"
@@ -47,16 +58,6 @@
         "data": "https://discord.gg/K9kyRpje"
     }],
 
-    "categories":[{
-        "type": "main",
-        "data": "Art"
-    },{
-        "type": "sub",
-        "data": "Photographer"
-    },{
-        "type": "other",
-        "data": "Skyline/Sunset Photographs"
-    }],
 
     "images": [{
         "type": "icon",
@@ -72,48 +73,60 @@
         "data": "https://domain.com/image.png"
     },{
         "type": "large",
+        "name": "Image Name / Title",
         "data": "https://domain.com/image_large.png"
     },{
         "type": "hires",
+        "name": "Image Name / Title",
         "data": "https://domain.com/image_hires.png"
     }],
 
     "audio": [{
         "type": "m4a",
         "data": "https://domain.com/audio.m4a",
+        "name": "Audio Name / Title",
         "hash": "8031025a667824a188dd5479ca5cb20c5306be06ed01875f7bcc11ecb48251be"
     },{
         "type": "mp3",
+        "name": "Audio Name / Title",
         "data": "https://domain.com/audio.mp3"
     },{
         "type": "wav",
+        "name": "Audio Name / Title",
         "data": "https://domain.com/audio.wav"
     }],
 
     "video": [{
         "type": "mp4",
         "data": "https://domain.com/video.mp4",
+        "name": "Video Name / Title",
         "hash": "8031025a667824a188dd5479ca5cb20c5306be06ed01875f7bcc11ecb48251be"
     },{
         "type": "mov",
+        "name": "Video Name / Title",
         "data": "https://domain.com/video.mov"
     },{
         "type": "wmv",
+        "name": "Video Name / Title",
         "data": "https://domain.com/video.wmv"
     }],
 
     "files": [{
         "type": "doc",
         "data": "https://domain.com/word.doc",
+        "name": "File Name / Title",
         "hash": "8031025a667824a188dd5479ca5cb20c5306be06ed01875f7bcc11ecb48251be"
     },{
         "type": "pdf",
+        "name": "File Name / Title",
         "data": "https://domain.com/document.pdf"
     },{
         "type": "xls",
+        "name": "File Name / Title",
         "data": "https://domain.com/excel.xls"
     },{
         "type": "other",
+        "name": "File Name / Title",
         "data": "https://domain.com/filename.ext"
     }],
 

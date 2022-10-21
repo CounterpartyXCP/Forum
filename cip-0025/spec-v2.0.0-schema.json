@@ -184,6 +184,12 @@
                     "maxLength": 255,
                     "description": "A URI to the image file"
                 },
+                "name": {
+                    "type": "string",
+                    "format": "string",
+                    "maxLength": 255,
+                    "description": "Name / Title of the image or artwork"
+                },
                 "hash": {
                     "type": "string",
                     "format": "string",
@@ -206,6 +212,12 @@
                     "format": "string",
                     "maxLength": 255,
                     "description": "A URI to the audio file"
+                },
+                "name": {
+                    "type": "string",
+                    "format": "string",
+                    "maxLength": 255,
+                    "description": "Name / Title of the audio or artwork"
                 },
                 "hash": {
                     "type": "string",
@@ -230,6 +242,12 @@
                     "maxLength": 255,
                     "description": "A URI to the video file"
                 },
+                "name": {
+                    "type": "string",
+                    "format": "string",
+                    "maxLength": 255,
+                    "description": "Name / Title of the video or artwork"
+                },
                 "hash": {
                     "type": "string",
                     "format": "string",
@@ -251,6 +269,12 @@
                     "format": "string",
                     "maxLength": 255,
                     "description": "A URI to the file"
+                },
+                "name": {
+                    "type": "string",
+                    "format": "string",
+                    "maxLength": 255,
+                    "description": "Name / Title of the file"
                 },
                 "hash": {
                     "type": "string",
