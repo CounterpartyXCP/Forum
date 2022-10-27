@@ -12,21 +12,21 @@
     "owner": {
         "name": "John Smith",
         "title": "Chief Technology Officer (CFO)",
-        "organization": "ABC Technologies, Inc.",
+        "organization": "ABC Technologies, Inc."
     },
 
     "contacts": [{
         "type": "address",
-        "data": "1234 Main Street, Seattle, WA 98104",
+        "data": "1234 Main Street, Seattle, WA 98104"
     },{
         "type": "email",
-        "data": "info@domain.com",
+        "data": "info@domain.com"
     },{
         "type": "phone",
-        "data": "1-949-555-1234",
+        "data": "1-949-555-1234"
     },{
         "type": "fax",
-        "data": "1-949-555-1234",
+        "data": "1-949-555-1234"
     },{
         "type": "url",
         "data": "https://domain.com"
@@ -48,7 +48,7 @@
         "data": "https://github.com/CounterpartyXCP"
     },{
         "type": "facebook",
-        "data": "https://facebook.com/CounterpartyXCP",
+        "data": "https://facebook.com/CounterpartyXCP"
     },{
         "type": "twitter",
         "data": "https://twitter.com/CounterpartyXCP"
