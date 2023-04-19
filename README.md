@@ -33,3 +33,4 @@ Number            | Title                                      | Owner          
 [23](cip-0023.md) | Bug fixes on non-divisible dividends and 0 quantity credits | John Villar          | Standards     | Active        |
 [24](cip-0024.md) | Oracled dispensers                  | John Villar, Jeremy Johnson, & Javier Varona | Standards     | Active        |
 [25](cip-0025.md) | Enhanced Asset Information Specification   | Jeremy Johnson                        | Informational | Draft         |
+[26](cip-0026.md) | STAMP Protocol                             | MikeInSpace & Jeremy Johnson          | Informational | Draft         |
