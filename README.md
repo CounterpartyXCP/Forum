@@ -34,6 +34,6 @@ Number            | Title                                      | Owner          
 [24](cip-0024.md) | Oracled dispensers                  | John Villar, Jeremy Johnson, & Javier Varona | Standards     | Active        |
 [25](cip-0025.md) | Enhanced Asset Information Specification   | Jeremy Johnson                        | Informational | Draft         |
 [26](cip-0026.md) | STAMP Protocol                             | MikeInSpace & Jeremy Johnson          | Informational | Draft         |
-[27](cip-0027.md) | STAMP Filesystem                           | Jeremy Johnson                        | Standards     | Draft         |
+[27](cip-0027.md) | STAMP Filesystem                           | Jeremy Johnson                        | Standards     | Withdrawn     |
 [28](cip-0028.md) | Broadcast Token Naming System              | Jeremy Johnson                        | Informational | Draft         |
 [29](cip-0029.md) | Asset Issuance Fees                        | JP Janssen                            | Standards     | Draft         |
