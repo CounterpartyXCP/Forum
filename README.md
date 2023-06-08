@@ -36,3 +36,4 @@ Number            | Title                                      | Owner          
 [26](cip-0026.md) | STAMP Protocol                             | MikeInSpace & Jeremy Johnson          | Informational | Draft         |
 [27](cip-0027.md) | STAMP Filesystem                           | Jeremy Johnson                        | Standards     | Withdrawn     |
 [28](cip-0028.md) | Broadcast Token Naming System              | Jeremy Johnson                        | Informational | Draft         |
+[29](cip-0029.md) | Asset Issuance Fees                        | JP Janssen                            | Standards     | Draft         |
