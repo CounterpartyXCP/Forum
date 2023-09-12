@@ -38,3 +38,4 @@ Number            | Title                                      | Owner          
 [28](cip-0028.md) | Broadcast Token Naming System              | Jeremy Johnson                        | Informational | Draft         |
 [29](cip-0029.md) | Asset Issuance Fees                        | JP Janssen                            | Standards     | Draft         |
 [30](cip-0030.md) | Support for taproot addresses              | Javier Varona & Jeremy Johnson        | Standards     | Draft         |
+[31](cip-0031.md) | Enhanced File Encoding Support             | Jeremy Johnson                        | Standards     | Draft         |
