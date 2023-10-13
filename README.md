@@ -39,3 +39,4 @@ Number            | Title                                      | Owner          
 [29](cip-0029.md) | Asset Issuance Fees                        | JP Janssen                            | Standards     | Draft         |
 [30](cip-0030.md) | Support for taproot addresses              | Javier Varona & Jeremy Johnson        | Standards     | Draft         |
 [31](cip-0031.md) | Enhanced File Encoding Support             | Jeremy Johnson                        | Standards     | Draft         |
+[32](cip-0032.md) | Dispenser Reservation                      | JP Janssen                            | Standards     | Draft         |
