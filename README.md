@@ -40,3 +40,4 @@ Number            | Title                                      | Owner          
 [30](cip-0030.md) | Support for taproot addresses              | Javier Varona & Jeremy Johnson        | Standards     | Draft         |
 [31](cip-0031.md) | Enhanced File Encoding Support             | Jeremy Johnson                        | Standards     | Draft         |
 [32](cip-0032.md) | Dispenser Reservation                      | JP Janssen                            | Standards     | Draft         |
+[33](cip-0033.md) | File Storage in P2WSH Outputs              | JP Janssen                            | Informational | Draft         |
