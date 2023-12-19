@@ -20,6 +20,7 @@ Number            | Title                                      | Owner          
 [9](cip-0009.md)  | Enhanced Asset Send                        | Joe Looney                            | Standards     | Active        |
 [10](cip-0010.md) | Multi Peer Multi Asset Send (MPMA)         | John Villar & Javier Varona           | Standards     | Active        |
 [11](cip-0011.md) | Shorten Transaction Type ID Namespace      | Devon Weller                          | Standards     | Active        |
+[13](cip-0013.md) | Multiparty Counterparty Aggregate Transaction (MCAT) | Devon Weller                | Standards     | Draft         |
 [12](cip-0012.md) | Memo Requirement through Broadcasts        | Jeremy Johnson                        | Standards     | Active        |
 [14](cip-0014.md) | Instant Lottery                            | JP Janssen                            | Standards     | Deferred      |
 [15](cip-0015.md) | Segwit Support                             | Devon Weller                          | Standards     | Active        |
