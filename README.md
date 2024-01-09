@@ -37,7 +37,7 @@ Number            | Title                                      | Owner          
 [26](cip-0026.md) | STAMP Protocol                             | MikeInSpace & Jeremy Johnson          | Informational | Draft         |
 [27](cip-0027.md) | STAMP Filesystem                           | Jeremy Johnson                        | Standards     | Withdrawn     |
 [28](cip-0028.md) | Broadcast Token Naming System              | Jeremy Johnson                        | Informational | Draft         |
-[29](cip-0029.md) | Asset Issuance Fees                        | JP Janssen                            | Standards     | Draft         |
+[29](cip-0029.md) | Asset Issuance Fees                        | JP Janssen                            | Standards     | Withdrawn     |
 [30](cip-0030.md) | Support for taproot addresses              | Javier Varona & Jeremy Johnson        | Standards     | Draft         |
 [31](cip-0031.md) | Enhanced File Encoding Support             | Jeremy Johnson                        | Standards     | Draft         |
 [32](cip-0032.md) | Dispenser Reservation                      | JP Janssen                            | Standards     | Draft         |
