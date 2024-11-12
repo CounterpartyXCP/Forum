@@ -12,11 +12,6 @@ body:
     attributes:
       label: Motivation Details
       description: "Elaborate on the reasons for this change or feature. What benefits will it bring to the project or its users?"
-      value: |
-        1.
-        2.
-        3.
-        ...
       render: bash
     validations:
       required: true
@@ -32,11 +27,6 @@ body:
     attributes:
       label: Design Details
       description: "Provide a detailed design plan, including any technical considerations."
-      value: |
-        1.
-        2.
-        3.
-        ...
       render: bash
     validations:
       required: true
