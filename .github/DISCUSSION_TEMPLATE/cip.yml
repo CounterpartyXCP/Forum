@@ -1,7 +1,90 @@
-# Motivation
+title: "[General] "
+labels: ["General Introduction"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        # Motivation
+        Provide a clear explanation of the motivation behind this change or feature. Why is this needed, and what problems does it aim to solve?
 
-# Design
+  - type: textarea
+    id: motivation-details
+    attributes:
+      label: Motivation Details
+      description: "Elaborate on the reasons for this change or feature. What benefits will it bring to the project or its users?"
+      value: |
+        1.
+        2.
+        3.
+        ...
+      render: bash
+    validations:
+      required: true
 
-# API Changes
+  - type: markdown
+    attributes:
+      value: |
+        # Design
+        Describe the design and implementation plan. How will this change or feature be structured?
 
-# Database Changes
+  - type: textarea
+    id: design-details
+    attributes:
+      label: Design Details
+      description: "Provide a detailed design plan, including any technical considerations."
+      value: |
+        1.
+        2.
+        3.
+        ...
+      render: bash
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        # API Changes
+        Outline any changes to the public API, including new endpoints, parameters, or modifications to existing APIs.
+
+  - type: input
+    id: api-changes
+    attributes:
+      label: API Changes Summary
+      description: "List any API changes that will result from this feature or update."
+    validations:
+      required: false
+
+  - type: markdown
+    attributes:
+      value: |
+        # Database Changes
+        Describe any database changes required, including schema updates, new tables, or modifications to existing ones.
+
+  - type: input
+    id: database-changes
+    attributes:
+      label: Database Changes Summary
+      description: "List any database changes that are part of this feature or update."
+    validations:
+      required: false
+
+  - type: markdown
+    attributes:
+      value: |
+        ## Additional Considerations
+        If applicable, discuss any additional factors like migration strategies, dependencies, or backward compatibility.
+
+  - type: textarea
+    id: additional-considerations
+    attributes:
+      label: Additional Considerations
+      description: "Include any other considerations or important information regarding this change."
+      value: |
+        - Migration steps:
+        - Backward compatibility:
+        - Other dependencies:
+      render: bash
+    validations:
+      required: false
+
