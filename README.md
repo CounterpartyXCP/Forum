@@ -28,7 +28,7 @@ Each CIP should have the following parts:
 
 ## CIP Lifecycle ##
 
-CIPs may be edited and managed by any Counterparty maintainer, where a maintainer is any individual that has commit access to the Counterparty Core repository and has made at least one commit in the previous nine-month period. 
+CIPs may be edited and managed by any Counterparty maintainer, where a maintainer is any individual that has had at least one commit merged into `master` in the previous nine months.
 
 CIPs should be created as pull requests to this repository. These pull requests may be merged / rejected, and their status changed, by any Counterparty maintainer. CIPs may be rejected for a number of reasons, including failing to adhere to the above CIP format, being insufficiently motivated / documented, being unfocused, vague or ambiguous, being technically infeasible, etc. For a CIP to be accepted it must meet certain minimum criteria. It must be a clear and complete description of the proposed enhancement. The enhancement must represent a net improvement. The proposed implementation, if applicable, must be solid and must not complicate the protocol unduly.
 
